@@ -1,0 +1,22 @@
+.search__bar {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 20px;
+  form {
+    label {
+      display: flex;
+      margin-bottom: 5px;
+    }
+    input {
+      width: 100%;
+      padding: 5px;
+      border: 2px solid grey;
+      border-radius: 7px;
+      margin-bottom: 8px;
+    }
+    input:focus-visible {
+      outline: none;
+    }
+  }
+}
